@@ -1,0 +1,32 @@
+name: lyso_tracking
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # GUI
+  - pyqt
+
+  # scientific stack
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.2.2
+  - matplotlib
+
+  # GPU PyTorch (IMPORTANT)
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+
+  - pip
+  - pip:
+      - cellpose==2.1.0
+      - scikit-image==0.25.2
+      - tifffile==2023.4.12
+      - trackpy
+      - tqdm
