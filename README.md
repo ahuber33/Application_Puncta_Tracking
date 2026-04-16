@@ -1,4 +1,4 @@
-# ICS Puncta Tracking
+# Application Puncta Tracking
 
 Suivi automatisé et analyse du mouvement des puncta dans les somas neuronaux, à partir d'images de microscopie de fluorescence en time-lapse.
 
@@ -11,12 +11,12 @@ Contact : huber@lp2ib.in2p3.fr
 
 **GitHub :**
 ```bash
-git clone https://github.com/ahuber33/Application_ICS_Puncta_Tracking.git
+git clone https://github.com/ahuber33/Application_Puncta_Tracking.git
 ```
 
 Puis se déplacer dans le dossier du projet :
 ```bash
-cd Application_ICS_Puncta_Tracking
+cd Application_Puncta_Tracking
 ```
 
 Une fois cloné, vous avez accès au fichier `Include_Puncta_Tracking.py` qui regroupe les différentes fonctions utilisés et qui sont détaillés plus loin dans ce README ainsi qu'au fichier `puncta_tracking_app.py` qui fait office de main et qui gère l'application ainsi que l'appel aux différentes fonctions.
